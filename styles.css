@@ -16,16 +16,33 @@ body {
 	height: 50px;
 }
 .postcard-header h1 {
-	width: 150px;
+	width: 340px;
 	margin: 0;
+	padding-top: 18px;
 }
 .postcard-body {
 	display: flex;
 }
+.body-left p {
+	margin-top: 0;
+	padding-top: 9px;
+}
+
+.body-right {
+	padding: 5px;
+}
+.body-left {
+	padding: 5px;
+}
+.input {
+	border: none;
+	border-bottom: grey;
+}
 .postcard-footer {
-	text-align: x;
+	text-align: center;
 }
 button {
-	background-color: x;
-	padding: x;
+	background-color: silver;
+	border: 0;
+	padding: 7px;
 }
